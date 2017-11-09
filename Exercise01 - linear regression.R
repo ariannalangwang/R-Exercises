@@ -6,8 +6,8 @@
 ####
 library(readr)
 # Read the file in using R-Studio
-df <- read_delim("~/Documents/****SELF-STUDY****/Udemy-Data Science and Machine Learning Bootcamp with R - Jose Portilla/R-for-Data-Science-and-Machine-Learning/Machine Learning with R/student-mat.csv", 
-                   +     ";", escape_double = FALSE, trim_ws = TRUE)
+df <- read.csv('student-mat.csv', sep=';')  # Before running this line, set working directory in the RStudio Files panel -> More
+                   
 head(df)
 tail(df)
 str(df)
