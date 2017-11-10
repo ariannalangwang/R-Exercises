@@ -75,6 +75,10 @@ error.rate <- mean(predicted.purchase != test.purchase)
 ## Choosing K Value:
 ####
 
+# Note:
+# NULL represents a null object in R.
+# NA is a logical constant of length 1, which contains a missing value indicator.
+
 # Write a for loop to check misclassification rate with k-value 1-20:
 predicted.purchase <- NULL  # empty object
 error.rate <- NULL
