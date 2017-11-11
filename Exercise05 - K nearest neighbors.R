@@ -59,9 +59,9 @@ train.purchase <- purchase[-test.index]
 ####
 
 # knn() function returns a vector of predicted Y’s.
-# The first argument is the training data  
-# the second argument is the testing data  
-# the third argument is the training Y 
+# The first argument is the train.features (a data frame)
+# the second argument is the test.features (a data frame)
+# the third argument is the train.Y (must be a vector)
 # the fourth argument is the k (how many neighbors).
 
 library(class)
