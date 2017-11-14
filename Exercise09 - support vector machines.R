@@ -79,3 +79,9 @@ table(test[ ,5], tuned_predictions)
 # The concept of trying to tune for parameters by just trying many combinations is known as a grid search. 
 # In this case, we likely have too little data to actually improve our model through careful parameter selection.
 
+# Note: need to read these two documentations!
+help('svm')
+help('tune')
+
+
+
